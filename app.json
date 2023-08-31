@@ -1,7 +1,7 @@
 {
-  "name": "TRTMP",
+  "name": "Streamrtmp",
   "description": "Go live easily and stream videos in Telegram channels.",
-  "repository": "https://github.com/callsmusic/trtmp",
+  "repository": "https://github.com/illestniccur7/trtmps/",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot’s token obtained from @BotFather.",
@@ -22,7 +22,8 @@
     }
   ],
   "formation": {
-    "worker": {
+    "worker": heroku/python
+  {
       "quantity": 1,
       "size": "free"
     }
