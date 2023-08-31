@@ -22,8 +22,8 @@
     }
   ],
   "formation": {
-    "worker": heroku/python
-  {
+    "worker": {
+  
       "quantity": 1,
       "size": "free"
     }
